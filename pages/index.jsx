@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Modal from 'react-modal'
 import { connect } from 'react-redux'
 import { loadLessons } from '@actions/lesson.actions'
 import Lesson from '@components/lesson';
