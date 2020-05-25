@@ -1,0 +1,27 @@
+{
+    "presets": [
+        "next/babel"
+    ],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "."
+                ],
+                "alias": {
+                    "@components": "./components",
+                    "@components-light": "./components/_LIGHT",
+                    "@styles": "./styles",
+                    "@pages": "./pages",
+                    "@reducers": "./reducers",
+                    "@store": "./store",
+                    "@api": "./api",
+                    "@actions": "./actions",
+                    "@constants": "./constants",
+                    "@utils": "./utils"
+                }
+            }
+        ]
+    ]
+}
